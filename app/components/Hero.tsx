@@ -1,5 +1,5 @@
 import { whatsappLink } from "./data";
-
+import Image from "next/image";
 export default function Hero() {
   return (
     <section className="relative">
@@ -53,17 +53,22 @@ export default function Hero() {
           <div className="relative rounded-4xl border border-white/10 bg-linear-to-br from-zinc-800/80 to-black p-7 shadow-2xl">
             <div className="flex items-center justify-between">
               <span className="text-xs uppercase tracking-[0.3em] text-zinc-500">
-                ChinaMotors
               </span>
 
-              <span className="h-3 w-3 rounded-full bg-red-600 shadow-[0_0_22px_rgba(220,38,38,1)]" />
             </div>
 
             <div className="mt-12 flex min-h-80 items-center justify-center rounded-3xl border border-white/5 bg-black/40 px-5">
               <div className="text-center">
-                <div className="mx-auto flex h-28 w-28 items-center justify-center rounded-full border border-red-600/40 bg-red-600/10">
-                  <span className="text-4xl font-black text-red-600">CM</span>
-                </div>
+                <div className="mx-auto flex h-40 w-40 items-center justify-center overflow-hidden rounded-full border border-red-600/40 bg-red-600/10">
+  <Image
+    src="/images/logo/logo-circle.png"
+    alt="China Motors"
+    width={170}
+    height={170}
+    priority
+    className="h-full w-full object-cover"
+  />
+</div>
 
                 <p className="mt-7 text-3xl font-black tracking-wide">
                   CHINA MOTORS

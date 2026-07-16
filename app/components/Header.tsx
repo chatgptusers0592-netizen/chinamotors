@@ -1,12 +1,11 @@
 import { whatsappLink } from "./data";
-
 export default function Header() {
   return (
     <header className="sticky top-0 z-50 border-b border-white/10 bg-[#08080a]/90 backdrop-blur-xl">
       <div className="mx-auto flex max-w-7xl items-center justify-between px-5 py-4 lg:px-10">
-        <a href="#" className="text-xl font-black tracking-wider">
-          CHINA<span className="text-red-600">MOTORS</span>
-        </a>
+       <a href="#" className="text-xl font-black tracking-wider">
+  CHINA<span className="text-red-600">MOTORS</span>
+</a>
 
         <nav className="hidden items-center gap-7 text-sm text-zinc-300 lg:flex">
           <a href="#services" className="transition hover:text-red-500">
