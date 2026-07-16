@@ -28,6 +28,10 @@ export default function Header() {
   О компании
 </a>
 
+<a href="#request" className="transition hover:text-red-500">
+  Оставить заявку
+</a>
+
           <a href="#contacts" className="transition hover:text-red-500">
             Контакты
           </a>

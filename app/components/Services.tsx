@@ -13,12 +13,11 @@ export default function Services() {
 
         <div className="mt-4 flex flex-col gap-6 lg:flex-row lg:items-end lg:justify-between">
           <h2 className="max-w-3xl text-3xl font-black sm:text-5xl">
-            Всё необходимое для вашего автомобиля
+            Что получает клиент ChinaMotors
           </h2>
 
           <p className="max-w-xl leading-7 text-zinc-400">
-            От определения нужной запчасти до профессиональной установки в
-            сервисе.
+            Понятный подбор, подходящие варианты и установка без лишних поисков.
           </p>
         </div>
 

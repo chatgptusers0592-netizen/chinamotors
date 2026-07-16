@@ -9,6 +9,7 @@ import About from "./components/About";
 import Contacts from "./components/Contacts";
 import Footer from "./components/Footer";
 import WhatsappButton from "./components/WhatsappButton";
+import RequestForm from "./components/RequestForm";
 
 export default function Home() {
   return (
@@ -21,6 +22,7 @@ export default function Home() {
       <Steps />
       <Stats />
       <About />
+      <RequestForm />
       <Contacts />
       <Footer />
       <WhatsappButton />

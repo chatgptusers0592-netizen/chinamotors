@@ -24,9 +24,7 @@ export default function Hero() {
 
           <div className="mt-10 flex flex-col gap-4 sm:flex-row">
             <a
-              href={whatsappLink}
-              target="_blank"
-              rel="noopener noreferrer"
+              href="#request"
               className="rounded-xl bg-red-600 px-7 py-4 text-center font-bold transition hover:bg-red-500"
             >
               Подобрать запчасть
