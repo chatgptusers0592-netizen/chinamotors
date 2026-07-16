@@ -16,16 +16,34 @@ const mapLink =
         </h2>
 
         <div className="mt-12 grid gap-6 md:grid-cols-3">
-          <article className="rounded-3xl border border-white/10 bg-white/3 p-7">
-            <p className="text-sm text-zinc-500">Телефон и WhatsApp</p>
+         <article className="rounded-3xl border border-white/10 bg-white/3 p-7">
+  <p className="text-sm text-zinc-500">Телефон и WhatsApp</p>
 
-            <a
-              href="tel:+79679374141"
-              className="mt-3 block text-xl font-black transition hover:text-red-500"
-            >
-              +7 967 937-41-41
-            </a>
-          </article>
+  <a
+    href="tel:+79679374141"
+    className="mt-3 block text-xl font-black transition hover:text-red-500"
+  >
+    +7 967 937-41-41
+  </a>
+
+  <div className="mt-6 flex flex-col gap-3 sm:flex-row">
+    <a
+      href="tel:+79679374141"
+      className="rounded-xl border border-white/15 px-5 py-3 text-center text-sm font-bold transition hover:border-red-600 hover:bg-red-600"
+    >
+      Позвонить
+    </a>
+
+    <a
+      href={whatsappLink}
+      target="_blank"
+      rel="noopener noreferrer"
+      className="rounded-xl bg-[#25D366] px-5 py-3 text-center text-sm font-bold text-white transition hover:bg-[#20bd5a]"
+    >
+      Написать в WhatsApp
+    </a>
+  </div>
+</article>
 
           <article className="rounded-3xl border border-white/10 bg-white/3 p-7">
   <p className="text-sm text-zinc-500">Адрес</p>
