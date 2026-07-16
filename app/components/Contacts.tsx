@@ -1,6 +1,9 @@
 import { whatsappLink } from "./data";
 
-export default function Contacts() {
+const mapLink =
+  "https://yandex.ru/maps/?text=Республика%20Дагестан%2C%20Махачкала%2C%20ул.%20Амет-Хана%20Султана%2C%20160";
+
+  export default function Contacts() {
   return (
     <section id="contacts" className="scroll-mt-20 py-24">
       <div className="mx-auto max-w-7xl px-5 lg:px-10">
@@ -25,12 +28,22 @@ export default function Contacts() {
           </article>
 
           <article className="rounded-3xl border border-white/10 bg-white/3 p-7">
-            <p className="text-sm text-zinc-500">Адрес</p>
+  <p className="text-sm text-zinc-500">Адрес</p>
 
-            <p className="mt-3 text-xl font-black leading-8">
-              Республика Дагестан, Махачкала, ул. Амет-Хана Султана, 160
-            </p>
-          </article>
+  <p className="mt-3 text-xl font-black leading-8">
+    Республика Дагестан, Махачкала, ул. Амет-Хана Султана, 160
+  </p>
+
+  <a
+    href={mapLink}
+    target="_blank"
+    rel="noopener noreferrer"
+    className="mt-6 inline-flex items-center gap-2 rounded-xl border border-white/15 px-5 py-3 text-sm font-bold transition hover:border-red-600 hover:bg-red-600"
+  >
+    <span aria-hidden="true">⌖</span>
+    Открыть на карте
+  </a>
+</article>
 
           <article className="rounded-3xl border border-white/10 bg-white/3 p-7">
             <p className="text-sm text-zinc-500">Режим работы</p>
