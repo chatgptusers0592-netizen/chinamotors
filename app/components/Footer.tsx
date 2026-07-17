@@ -5,6 +5,15 @@ export default function Footer() {
         <p>© 2026 ChinaMotors</p>
 
         <p>Махачкала • Запчасти и сервис китайских автомобилей</p>
+      
+      <a
+  href="https://www.instagram.com/china_motors__"
+  target="_blank"
+  rel="noopener noreferrer"
+  className="text-zinc-400 transition hover:text-white"
+>
+  Instagram
+</a>
       </div>
     </footer>
   );

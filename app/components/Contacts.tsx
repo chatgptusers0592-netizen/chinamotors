@@ -26,7 +26,7 @@ const mapLink =
     +7 967 937-41-41
   </a>
 
-  <div className="mt-6 flex flex-col gap-3 sm:flex-row">
+  <div className="mt-6 grid gap-3 sm:grid-cols-3">
     <a
       href="tel:+79679374141"
       className="rounded-xl border border-white/15 px-5 py-3 text-center text-sm font-bold transition hover:border-red-600 hover:bg-red-600"
@@ -42,6 +42,14 @@ const mapLink =
     >
       Написать в WhatsApp
     </a>
+   <a
+  href="https://www.instagram.com/china_motors__"
+  target="_blank"
+  rel="noopener noreferrer"
+  className="rounded-xl border border-white/15 px-5 py-3 text-center text-sm font-bold transition hover:border-pink-500 hover:bg-pink-500"
+>
+  Instagram
+</a>
   </div>
 </article>
 
